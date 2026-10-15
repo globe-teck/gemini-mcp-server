@@ -66,7 +66,7 @@ client config. Restart the client and the `gemini_ask` tool will appear.
 - Structured (JSON-schema) output mode
 
 ## How this was built
-Built with AI coding assistance as part of my AI-agent operations work; I designed the approach and reviewed every change.
+Built with AI coding assistance as part of my AI-agent operations work. I defined the requirements and error-handling behavior, ran the tests, and reviewed the changes.
 
 ## License
 MIT. See [LICENSE](LICENSE).
