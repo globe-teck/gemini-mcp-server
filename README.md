@@ -1,6 +1,6 @@
 # gemini-mcp-server
 
-[![CI](https://github.com/leighsrodney-prog/gemini-mcp-server/actions/workflows/ci.yml/badge.svg)](https://github.com/leighsrodney-prog/gemini-mcp-server/actions/workflows/ci.yml)
+[![CI](https://github.com/globe-teck/gemini-mcp-server/actions/workflows/ci.yml/badge.svg)](https://github.com/globe-teck/gemini-mcp-server/actions/workflows/ci.yml)
 
 A tiny [Model Context Protocol](https://modelcontextprotocol.io) **stdio server** that gives any MCP
 client one tool, `gemini_ask`, which sends a prompt to Google Gemini and returns the text answer.
@@ -13,7 +13,7 @@ It retries with backoff on rate limits and outages, and falls back to another mo
 
 ## Setup (uv)
 ```bash
-git clone <this-repo-url> gemini-mcp-server
+git clone https://github.com/globe-teck/gemini-mcp-server.git
 cd gemini-mcp-server
 uv sync                      # creates .venv and installs mcp (+ pytest in the dev group)
 read -rs GEMINI_API_KEY && export GEMINI_API_KEY   # from Google AI Studio
